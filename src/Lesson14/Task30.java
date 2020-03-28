@@ -16,3 +16,4 @@ public class Task30 {
         System.out.println("number of punctuation marks = " + sentenceCount);
     }
 }
+
