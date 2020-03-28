@@ -27,4 +27,3 @@ public class Task32 {
         System.out.print("\n" + sr);
     }
 }
-
