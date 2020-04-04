@@ -7,11 +7,12 @@ import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
+        String path = "./numbertext.txt";
         int[] array = new int[20];
         final Random random = new Random();
         for (int i = 0; i < array.length; ++i)
             array[i] = random.nextInt(9);
-        try (final FileWriter writer = new FileWriter("./numbertext.txt", false)) {
+        try (final FileWriter writer = new FileWriter(path, false)) {
             for (int i = 0; i < array.length; ++i) {
                 final String text = Integer.toString(array[i]);
                 writer.write(text);
@@ -21,7 +22,7 @@ public class Main {
         } catch (IOException e) {
             System.out.print(e.getMessage());
         }
-        try (final FileReader reader = new FileReader("./numbertext.txt")) {
+        try (final FileReader reader = new FileReader(path)) {
             int c;
             while ((c = reader.read()) != -1) {
                 System.out.print((char) c);
