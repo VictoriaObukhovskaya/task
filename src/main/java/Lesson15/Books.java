@@ -2,7 +2,7 @@ package main.java.Lesson15;
 
 import java.io.Serializable;
 
-public class Books implements  {
+public class Books implements Serializable {
     private String name;
     private String author;
 

@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) throws IOException, ClassNotFoundException {
-        final String path = ".book titles.txt";
+        final String path = "./books/book titles.txt";
         List<Books> books = Arrays.asList(
                 new Books("Белые ночи", "Фёдор Достоевский"),
                 new Books("Война и мир", "Лев Толстой"),
