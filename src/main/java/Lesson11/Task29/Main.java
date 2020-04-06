@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args){
         Scanner num = new Scanner(System.in);
         System.out.println("ВВедите символы");
         String string = num.nextLine();
