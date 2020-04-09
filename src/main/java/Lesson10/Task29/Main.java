@@ -1,4 +1,4 @@
-package main.java.Lesson11.Task29;
+package main.java.Lesson10.Task29;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -22,5 +22,6 @@ public class Main {
         }
     }
 }
+
 
 
