@@ -1,4 +1,4 @@
-package main.java.Lesson10.Task28;
+package main.java.Lesson11.Task28;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -23,6 +23,5 @@ public class Main {
         System.out.println(maximum);
     }
 }
-
 
 
