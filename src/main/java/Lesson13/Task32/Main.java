@@ -7,7 +7,7 @@ import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
-        String path = "./numbertext.txt";
+        String path = "./number.txt";
         int[] array = new int[20];
         final Random random = new Random();
         for (int i = 0; i < array.length; ++i)
