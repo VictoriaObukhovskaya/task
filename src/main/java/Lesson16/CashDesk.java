@@ -33,4 +33,3 @@ public class CashDesk extends Thread {
         System.out.println("cash desk " + threadName + " completed");
     }
 }
-
