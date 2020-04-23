@@ -1,5 +1,4 @@
 package main.java.Lesson16;
-
 import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
@@ -13,7 +12,7 @@ public class CashDesk extends Thread {
 
     public void run() {
         try {
-            for (int i = 1; i < 7; i++) { //номер покупателя для каждой кассы
+            for (int i = 1; i < 7; i++) {//номер покупателя для каждой кассы
                 List<String> products = Arrays.asList(
                         "kefir, oranges, pasta",
                         "baguette, cookies, rice",
