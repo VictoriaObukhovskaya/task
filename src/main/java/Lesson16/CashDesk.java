@@ -30,6 +30,7 @@ public class CashDesk extends Thread {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-
+        System.out.println("cash desk " + threadName + " completed");
     }
 }
+
