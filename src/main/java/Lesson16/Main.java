@@ -8,7 +8,7 @@ public class Main {
 
         cashDesk1.start();
         cashDesk2.start();
-        cashDesk3.start();
+       
     }
 }
 
